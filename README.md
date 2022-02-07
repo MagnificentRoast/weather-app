@@ -8,4 +8,6 @@ You would see the app's homepage, type your city into the search bar, it will te
 
 ## Current state
 
-Currently there is base HTML, but there is nothing visible to as of yet.
+As of this writing, I have changed the CSS to use Minty, which can be themed to your liking. I went with a minty color for this project. I have split the functions into separate files, I tried to wire it right, but to no avail. You will find the scripts in the github.
+
+![screenshot](/assets/image/weatherapp.png)

@@ -1,4 +1,4 @@
-// to fetch the weather for the app
+// To fetch the weather using openweathermap API
 
 class fetch {
     async getCurrent(input) {
@@ -7,7 +7,7 @@ class fetch {
         //make request to url
 
         const response = await fetch(
-            'https://api.openweathermap.org/data/2.5/weather?q=$(input)&appid=$(myKey)'
+            'https://api.openweathermap.org/data/2.5/weather?q=${input}&appid=${myKey}'
         );
 
         const data = await response.json();
@@ -17,3 +17,5 @@ class fetch {
         return data;
     }
 }
+
+// This function passes the information from the fetch request to ui.js
